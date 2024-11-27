@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v2.3.4 - 2024-11-27
+
+* Based on [Arduino-FOC v2.3.4](https://github.com/simplefoc/Arduino-FOC/releases/tag/v2.3.4)
+
 ## v2.3.0~3 - 2023-11-15
 
 * Support all esp chips by default (except esp8266)
