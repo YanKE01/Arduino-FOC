@@ -16,7 +16,7 @@ set(SRC_FILES
 
 set(INC_FILES "src/common/" "src/common/base_classes/" "src/")
 
-set(IGNORE_FILES "src/sensors/Encoder.cpp" "src/sensors/HallSensor.cpp")
+set(IGNORE_FILES "src/sensors/Encoder.cpp" "src/sensors/HallSensor.cpp" "src/common/base_classes/FOCMotor.cpp")
 
 idf_component_register(SRCS ${SRC_FILES} INCLUDE_DIRS ${INC_FILES})
 

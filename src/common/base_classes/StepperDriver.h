@@ -1,7 +1,7 @@
 #ifndef STEPPERDRIVER_H
 #define STEPPERDRIVER_H
 
-#include "Arduino.h"
+#include "esp_platform.h"
 #include "FOCDriver.h"
 
 class StepperDriver: public FOCDriver{

@@ -1,7 +1,7 @@
 #ifndef FOCDRIVER_H
 #define FOCDRIVER_H
 
-#include "Arduino.h"
+#include "esp_platform.h"
 
 
 enum PhaseState : uint8_t {
